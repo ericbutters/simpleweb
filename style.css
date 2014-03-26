@@ -1,0 +1,31 @@
+/* Hi Ina!, das hier ist ein Kommentar. Und das
+ * hier ist eine css Datei. */
+
+/* Und hiermit hole ich mir eine Schriftart */
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+
+/* Das ist ein DIV, damit kannste sagen wo und wie
+ * Elemente aussehen sollen */ 
+#meindiv{
+text-align: center;
+background-color: #cecece; 
+width: 400px; 
+font-family: 'Open Sans', sans-serif;}
+
+#buttondiv{
+background-color: #ffffff;
+width: 400px;
+margin-top: 5px;
+margin-bottom: 10px;
+}
+
+#ergebnis{
+text-align: center;
+background-color: #ececec; 
+width: 400px;
+height: 100px;
+font-family: 'Open Sans', sans-serif;
+font-size: 10px;
+overflow-y: scroll; /* vertikales scrollen */
+visibility: hidden;
+}

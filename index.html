@@ -1,0 +1,30 @@
+<!-- Hey Ina :) 
+das hier ist die html Datei die Du in deinem Browser öffnen kannst.
+Schau dir auch die beiden anderen Dateien an (style.css und meinjscript.js).
+-->
+
+<html>
+  <head>
+    <!--  Hier lade ich die CSS Datei dies das Aussehen der Elemente 
+          der Seite definiert  -->
+    <link href="style.css" type="text/css" rel="stylesheet">
+
+    <!--  Hier lade ich die JavaScript Runtime. Diese wird benötigt damit
+          JavaScript ausgeführt werden kann. -->
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+    <!--  Und hier lade ich meine eigene JavaScript Datei.
+          Dort wird dann Code ausgeführt wenn du auf den Button klickst. -->
+    <script language="JavaScript" src="meinjscript.js"></script>
+  </head>
+  <body>
+    <!--  Das ist der Teil der auf der Seite angezeigt wird. Die 'div' definition
+          findest du in der CSS Datei. -->
+    <div id="meindiv">Hallo Ina!</div>
+    <div id="buttondiv" align="center">
+      <input id="clickMe" type="button" value="Klick mal!">
+    </div>
+    <!--  Dieses DIV hier wird gefüllt und angezeigt wenn Du den Button anklickst. -->
+    <div id="ergebnis"></div>
+  </body>
+</html>
