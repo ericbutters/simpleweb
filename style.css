@@ -27,5 +27,14 @@ height: 100px;
 font-family: 'Open Sans', sans-serif;
 font-size: 10px;
 overflow-y: scroll; /* vertikales scrollen */
+opacity: 0;
+}
+
+#ergebnisCounter{
+background-color: #0e0e0e;
+color: white;
+width: 400px;
+font-family: 'Open Sans', sans-serif;
+font-size: 10px;
 visibility: hidden;
 }
