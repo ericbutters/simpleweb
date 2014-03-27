@@ -38,3 +38,38 @@ font-family: 'Open Sans', sans-serif;
 font-size: 10px;
 visibility: hidden;
 }
+
+atestdiv {
+  width: 400px;
+  background-color: #ff0000;
+  -webkit-animation: spin 4s infinite linear;
+  -webkit-animation-play-state:running;
+  animation-name: spin;
+  animation-duration: 4s;
+  animation-timing-function:linear;
+  animation-iteration-count:infinite;
+  animation-play-state: running;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes spin
+{
+  0%   {background:red; left:0px; top:0px;}
+  25%  {background:yellow; left:200px; top:0px;}
+  50%  {background:blue; left:200px; top:200px;}
+  75%  {background:green; left:0px; top:200px;}
+  100% {background:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes spin
+{
+  0%   {background:red; left:0px; top:0px;}
+  25%  {background:yellow; left:200px; top:0px;}
+  50%  {background:blue; left:200px; top:200px;}
+  75%  {background:green; left:0px; top:200px;}
+  100% {background:red; left:0px; top:0px;}
+}
+
+
+
